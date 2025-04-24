@@ -1,8 +1,8 @@
 # React + Vite
 
-Project Name - TODO LIST
-Created in :- React + Tallwind_CSS  Project
-Created By :- Vaibhav Kumar 
+Project Name - TODO LIST <br>
+Created in :- React + Tallwind_CSS  Project <br>
+Created By :- Vaibhav Kumar <br>
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
