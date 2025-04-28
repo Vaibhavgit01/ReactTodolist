@@ -5,8 +5,13 @@ import Todoform from './Components/Todoform';
 import TodoList from './Components/TodoList';
 
 
+const LocalStorageValue = "DataStorage"
 const Todo = () => {
-    const [task, setTask] = useState([])
+    const [task, setTask] = useState(() =>{
+        const storedData = localStorage.getItem(LocalStorageValue)
+        if (!storedData) return []
+        return JSON.parse(storedData)
+    })
     const [dateTime, SetDataTime] = useState("")
 
 
@@ -30,6 +35,11 @@ const Todo = () => {
         // SetInputValue("")
         console.log(task)
     }
+
+    ///Local Storage in react 
+    localStorage.setItem(LocalStorageValue, JSON.stringify(task))
+
+
 
     ////Date & Time value
 
