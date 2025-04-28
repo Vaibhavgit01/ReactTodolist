@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Todo from './Todo'
 import Date_Time from './Time/Date_Time'
+import Timer from './Timer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,8 +12,9 @@ function App() {
   return (
     <>
     <div className='bg-black h-screen md:bg-blue-600'>
-     <Todo/> 
+     <Todo/>
      {/* <Date_Time/> */}
+     {/* <Timer/> */}
 
     </div>
     </>
