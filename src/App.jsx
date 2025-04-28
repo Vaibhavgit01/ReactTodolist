@@ -3,14 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Todo from './Todo'
+import Date_Time from './Time/Date_Time'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <div className='bg-black h-screen '>
+    <div className='bg-black h-screen md:bg-blue-600'>
      <Todo/> 
+     {/* <Date_Time/> */}
 
     </div>
     </>
